@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +16,7 @@
 
 	.container {
 		display: flex;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 
@@ -23,13 +25,17 @@
 		background-color: black;
 	}
 
+	.bau {
+		width: 200px;
+		max-width: 50%;
+	}
+
 	.container-text {
 		width: 1000px;
 		max-width: 80%;
 	}
 
 	.text {
-		user-select: none;
 		color: whitesmoke;
 		font-size: 20pt;
 		font-weight: bold;
@@ -39,11 +45,12 @@
 
 <body>
 	<div class="container">
+		<img class="bau" src="https://i.pinimg.com/originals/e4/4f/9f/e44f9fce63d840563e9f65f01094f473.png" alt="" srcset="">
 		<div class="container-text">
-			<p class="text">
-				FRASE QUE O ERICK TEM QUE COLOCAR
-			</p>
+			<p class="text">O que será o que está escrito ai?</p>
+			<p class="text">Tenta mudar a letra atual pela sua anterior do alfabeto, talvez descubras :D</p>
 		</div>
 	</div>
 </body>
+
 </html>
